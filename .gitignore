@@ -1,0 +1,76 @@
+# =========================
+# 🔐 Secrets & Credentials
+# =========================
+.env
+.env.*
+*.key
+*.pem
+*.crt
+secrets.json
+credentials.json
+
+# Google Apps Script auth (clasp)
+.clasprc.json
+
+# =========================
+# 📦 Node.js
+# =========================
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# =========================
+# 🧪 Logs
+# =========================
+*.log
+
+# =========================
+# ⚙️ TypeScript
+# =========================
+*.tsbuildinfo
+
+# =========================
+# 🧹 Temp / Cache
+# =========================
+.cache/
+.tmp/
+temp/
+tmp/
+
+# =========================
+# 🖥️ OS files
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🧰 IDE / Editor
+# =========================
+.vscode/
+.idea/
+
+# =========================
+# 📦 Build outputs (EXCEPT dist)
+# =========================
+build/
+out/
+coverage/
+
+# ⚠️ IMPORTANTE:
+# NO ignorar /dist porque contiene los archivos .gs que usa Apps Script
+
+# =========================
+# 🗂️ Optional Data
+# =========================
+*.csv
+*.xlsx
+*.parquet
+*.db
+*.sqlite
+
+# =========================
+# 📓 Jupyter (por si agregas DS)
+# =========================
+.ipynb_checkpoints/
