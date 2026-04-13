@@ -1,10 +1,10 @@
-# Delivery Automation Hub (Google Apps Script)
+# Automation Hub (Google Apps Script)
 
-This project is a multi-domain automation hub, starting with Jira automations but designed to scale to other delivery automations. It follows a Clean Architecture approach.
+This project is a multi-domain automation hub, starting with Jira automations but designed to scale to other  automations. It follows a Clean Architecture approach.
 
 ## Purpose
 
-The **Delivery Automation Hub** centralizes process improvements for Process Analysts and QA.
+The **Delivery Automation Hub** centralizes process improvements
 - **First Domain**: Jira Automations (Feature implemented).
 - **Scalability**: Designed to easily add new domains (e.g., Reports, Notifications, Syncs) without cluttering the codebase.
 
