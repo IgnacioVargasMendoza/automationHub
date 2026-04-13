@@ -14,7 +14,7 @@ Contiene los casos de uso y orquestación de la lógica de negocio:
 - **downloadJiraIssues.ts**: Descarga de issues de Jira a Google Sheets
 - **updateJiraReporters.ts**: Actualización de reporters en issues existentes
 - **buildReporterUpdateList.ts**: Construcción de lista de actualizaciones de reporters
-- **createSubtasksFromMapperProjects.ts**: Creación de subtareas desde proyectos mapper
+
 
 ### Domain Layer (`domain/`)
 Contiene la lógica de dominio pura, sin dependencias externas:
